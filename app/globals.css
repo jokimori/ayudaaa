@@ -1,0 +1,352 @@
+.container {
+  background-color: #F9F2DF;
+  padding: 40px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 30px;
+  font-weight: bold;
+  
+}
+
+.legend {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.row2 {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.lasMasas {
+  color: #64A8C8;
+}
+
+.losApasionados {
+  color: #CE4D4D;
+}
+
+.laAcademia {
+  color: #E8AD38;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.blue2 {
+  background-color: #A8C3D8;
+  color: #3E6180;
+}
+
+.green2 {
+  background-color: #E39F96;
+  color: #C14444;
+}
+
+.yellow2 {
+  background-color: #FFDC98;
+  color: #CA8A05;
+}
+
+.blue {
+  background-color: #76B3DC;
+  
+}
+
+.green {
+  background-color: #CE4D4D;
+}
+
+.yellow {
+  background-color: #E8BD6C;
+}
+
+.graph {
+  margin-top: 50px;
+  text-align: left;
+  font-size: 1 rem;
+  margin-bottom: 20px;
+  margin-left: 290px;
+  margin-right: 290px;
+}
+
+.graphRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  margin-bottom: 10%;
+  
+}
+
+.bar {
+  width: 50px;
+  height: 150px;
+  margin: 0 px;
+}
+
+.iconColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  
+}
+
+.popcorn {
+  margin: 5px 0;
+}
+
+/* Flecha CSS */
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid black;
+  margin: 0 10px;
+  position: relative;
+}
+
+.arrow::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -15px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid black;
+}
+
+/* Baldes de pochoclos */
+.bucketSection {
+  margin-top: 90%;
+}
+
+.bucketText {
+  font-size: 1.2rem;
+  margin-bottom: 0%;
+}
+
+.bucketRow {
+  display: flex;
+  margin-top: 0%;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 5%;
+}
+
+.bucket {
+  text-align: center;
+}
+
+.bucketImage {
+  width: 700px;
+  height: auto;
+  
+}
+
+/* Sección de progreso */
+.progressSection {
+  margin-top: 40px;
+}
+
+.progressText {
+  font-size: 1 rem;
+  margin-bottom: 20px;
+}
+
+.progressImage {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+.colores {
+  width: 300px;
+  height: auto;
+  margin-left: 150px;
+}
+  
+.ejemplo {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-left: 150px ;
+  
+ 
+}
+.centerSeccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 150px ;
+}
+
+.grafico {
+  display: flex;
+  width: 100%;
+  max-width:800px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 300px;
+  
+}
+.textografico {
+  display: flex;
+  width: 100%;
+  max-width:800px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 300px;
+  
+}
+.textoejemplo {
+  
+  font-style: italic;
+  font-size: 1 rem;
+  font-style: italic;
+  margin-bottom: 30px;
+  margin-left: 450px;
+  margin-right: 300px;
+
+}
+/* Contenedor para los gráficos */
+.graph-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.graph-item {
+  flex: 1;
+  min-width: 300px; /* Asegura que los gráficos no se reduzcan demasiado */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .graph-container {
+    flex-direction: column;
+  }
+}
+/* Baldes de pochoclos */
+.buckettSection {
+  margin-top: 90%;
+  justify-content: right;
+}
+
+.buckettText {
+  font-size: 1.2rem;
+  margin-bottom: 0%;
+}
+
+.buckettRow {
+  display: flex;
+  margin-top: 0%;
+  justify-content: right;
+  gap: 20px;
+  margin-bottom: 50%;
+  
+}
+
+.buckett {
+  text-align: left;
+  
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
+
+.buckettImage {
+  width: 450px;
+  height: auto;
+  justify-content: right;
+  
+}
+.botonFiltro {
+  padding: 10px 20px;
+  background-color: #DBDBDB;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-left: 150px ;
+  font-weight: bold;
+  
+}
+
+.botonFiltro:hover {
+  background-color: #8D8D8D;
+  
+}
+.coloress {
+  width: 500px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.estanoche {
+  margin-top: 90%;
+}
+
+.porvideo {
+  font-size: 1.2rem;
+  margin-bottom: 0%;
+}
+
+.pendiente {
+  display: flex;
+  margin-top: 0%;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 5%;
+}
+
+.pendiente {
+  text-align: center;
+}
+
+.quetevoy {
+  width: 300px;
+  height: auto;
+  
+}
+.graficop {
+  width: 920px;
+  height: auto;
+  justify-content: center;
+  margin-top: 2%
+  
+}
